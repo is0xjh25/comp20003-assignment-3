@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "dimefox.eng.unimelb.edu.au",
+  "port": "22",
+  "target": "COMP20003/Assignment2",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "yunchi",
+  "password": "BeMyse1f25",
+  "watch": [],
+  "transport": "scp"
+}
